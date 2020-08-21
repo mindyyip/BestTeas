@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">BestTeas</string>
+    <string name="login_button_name">Log in</string>
+    <string name="register_button_name">Register</string>
+    <string name="email_register">Email</string>
+    <string name="password_register">Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="confirm">Confirm</string>
+    <string name="back">Back</string>
+    <string name="schoolSpinnerTitle">Select your school</string>
+    <string name="school">School</string>
+    <string name="bio">Bio\n(Hometown, grade, major, hobbies, favorite subject...)</string>
+    <string name="newSchool">Change School</string>
+    <string name="matches">Matches</string>
+    <string name="matchID">Match\'s ID</string>
+    <string name="messageHint">Enter your message</string>
+    <string name="messageDefault">Message</string>
+    <string name="send">Send</string>
+    <string name="settings">Profile</string>
+    <string name="signOut">Sign Out</string>
+    <string-array name="schools">
+        <item>-----</item>
+        <item>Amherst College</item>
+        <item>Boston College</item>
+        <item>Boston University</item>
+        <item>Brown University</item>
+        <item>California Institute of Technology</item>
+        <item>Carnegie Mellon University</item>
+        <item>Cornell University</item>
+        <item>Columbia University</item>
+        <item>Duke University</item>
+        <item>Harvard University</item>
+        <item>John Hopkins University</item>
+        <item>King\'s College London</item>
+        <item>Massachusetts Institute Of Technology</item>
+        <item>Northeastern University</item>
+        <item>Northwestern University</item>
+        <item>Princeton University</item>
+        <item>Rowan University</item>
+        <item>Rider University</item>
+        <item>Rensselaer Polytechnic Institute</item>
+        <item>Rutgers University</item>
+        <item>Stanford University</item>
+        <item>University of California, Berkeley</item>
+        <item>University of California, Los Angeles</item>
+        <item>University of Chicago</item>
+        <item>University of Pennsylvania</item>
+        <item>University of Southern California</item>
+        <item>Vanderbilt University</item>
+        <item>Wellesley College</item>
+        <item>Williams College</item>
+        <item>Yale University</item>
+    </string-array>
+</resources>

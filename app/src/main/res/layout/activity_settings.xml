@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".SettingsActivity"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="158dp"
+        android:layout_height="167dp"
+        android:layout_above="@+id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="43dp"
+        android:src="@mipmap/default_profile" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email"
+        android:layout_marginBottom="3dp"
+        android:background="@null"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/currentSchool"
+        android:layout_marginBottom="5dp"
+        android:background="@null"
+        android:hint="@string/email_register"/>
+<!--        android:inputType="textEmailAddress"--><![CDATA[
+        />
+
+    ]]>
+
+    <TextView
+        android:id="@+id/currentSchool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/selectText"
+        android:layout_marginBottom="34dp"
+        android:text="@string/school"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/selectText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/schoolList"
+        android:layout_marginBottom="1dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/newSchool"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/schoolList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bio"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/schools"
+        android:prompt="@string/schoolSpinnerTitle"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
+        android:layout_above="@+id/confirm"
+        android:layout_marginBottom="27dp"
+        android:hint="@string/bio" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginRight="131dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/confirm"
+        android:textColor="#1488E4" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginLeft="157dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/back"
+        android:textColor="#1488E4" />
+
+</RelativeLayout>

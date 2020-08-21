@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740435893621",
+    "firebase_url": "https://bestteas-f01fb.firebaseio.com",
+    "project_id": "bestteas-f01fb",
+    "storage_bucket": "bestteas-f01fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740435893621:android:f4ad0e298f444fde32c73c",
+        "android_client_info": {
+          "package_name": "com.mindyyip.bestteas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740435893621-s1emr9h509qqqdiam9i1a94ni3skqj6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindyyip.bestteas",
+            "certificate_hash": "bcd006febe8f684526b9abdaf8534757c41ee881"
+          }
+        },
+        {
+          "client_id": "740435893621-u0gp1bih8ia92r7sgl0negs6sph78e1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5ZHM9VyxkrzWbkTd712akDzLlAvxIATI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740435893621-u0gp1bih8ia92r7sgl0negs6sph78e1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

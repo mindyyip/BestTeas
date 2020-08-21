@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A9D5D1</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="FirstBackgroundColor">#4BAFFF</color>
+    <color name="SecondBackgroundColor">#8BBEE6</color>
+    <color name="ButtonColor">#8BBEE6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="customColor">#BF8989</color>
+    <color name="mainUserMessage">#A1CBED</color>
+    <color name="otherUser">#2D6870</color>
+</resources>
