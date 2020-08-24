@@ -7,13 +7,13 @@ This project was developed using Android Studios. It is a mobile application whe
 
 ## Images
 <span>
-<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/mindy_register.PNG" alt="Registration photo" width=200>
-<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/show_match.PNG" alt="Card Photo" width=190>
-<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/swipe.PNG" alt="Swipe Photo" width=200>
+<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/imgs/mindy_register.PNG" alt="Registration photo" width=200>
+<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/imgs/show_match.PNG" alt="Card Photo" width=190>
+<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/imgs/swipe.PNG" alt="Swipe Photo" width=200>
 </span>
 <br>
 <span>
-<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/matches.PNG" alt="Match photo" width=200>
-<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/convo.PNG" alt="Message photo" width=200>
+<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/imgs/matches.PNG" alt="Match photo" width=200>
+<img src="https://github.com/mindyyip/mindyyip.github.io/blob/master/imgs/convo.PNG" alt="Message photo" width=200>
 </span>
 
